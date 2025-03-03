@@ -68,14 +68,6 @@ namespace PCS.UI
         {
             Apply(new Vector2(Screen.width, Screen.height));
         }
-        private void OnRectTransformDimensionsChange()
-        {
-            UniTask.Create(async () =>
-            {
-                await UniTask.DelayFrame(2);
-                Apply(new Vector2(Screen.width, Screen.height));
-            }).Forget();
-        }
 
         public void Apply(Vector2 deviceResolution)
         {
