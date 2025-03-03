@@ -56,7 +56,8 @@ public class DamagePopupManager : MonoBehaviour
 
         Sequence sequence = DOTween.Sequence();
 
-        sequence.Append(prefab.transform.DOMoveY(prefab.transform.position.y + _endValue, _duration)
+        sequence.Append(prefab.transform.DOLocalMoveY(_endValue, _duration)
+            .SetRelative()
             .SetEase(_damageAnimationCurve));
             //.SetEase(Ease.OutElastic));
 
