@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hero
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Monster1
+  - Monster2
+  - Monster3
+  - 
+  - Ceil
+  - 
+  - Truck
+  - Hero
+  - Bullet
+  - Land1
+  - Land2
+  - Land3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HealthBar
+    uniqueID: 1776668041
+    locked: 0
+  - name: Bullet
+    uniqueID: 1850355361
+    locked: 0
+  - name: Monster1
+    uniqueID: 2614109833
+    locked: 0
+  - name: Monster2
+    uniqueID: 244008097
+    locked: 0
+  - name: Monster3
+    uniqueID: 3811500095
+    locked: 0
