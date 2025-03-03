@@ -66,9 +66,9 @@ Monster Spawner에서 설정된 Layer로 Monster의 Layer로 변환시켜 3줄�
 
 + **반응형 UI**
   
-개인 프레임워크인 UIAdjuster를 사용하여 화면의 크기 상관 없이 3040 x 1440의 화면이 보이도록 하였습니다.
+개인 프레임워크인 UIAdjuster를 사용하여 화면의 크기 상관 없이 3040 x 1440의 화면이 출력되도록 하였습니다.
 
-Editor에서 Free Aspect로 변경 후 화면 크기를 변경하여도 3040 x 1440의 화면비가 유지되며, 빈 공간은 검은 Letter box로 채워지게 됩니다.
+Editor에서 Free Aspect로 변경 후 화면 크기를 변경하여도 3040 x 1440의 화면비가 유지되며, 빈 공간은 Letter box로 채워지게 됩니다.
 
 
 사용한 라이브러리
